@@ -73,5 +73,4 @@ def verify_checksum(string, expected):
     return actual == expected
 
 if __name__ == '__main__':
-    app.debug = True #FIXME
     app.run()
